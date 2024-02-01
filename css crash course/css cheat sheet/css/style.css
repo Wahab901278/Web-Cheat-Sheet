@@ -1,0 +1,219 @@
+/*
+*{
+ 
+    margin:0;
+    padding:0;
+    
+
+}*/
+/*h1{
+    color:green;
+}*/
+body{
+
+    background-color: rgb(248, 247, 247);
+   color:black;
+  /* font-family: Arial, Helvetica, sans-serif;
+   font-size: 16px;
+   font-weight: normal;*/
+  font:normal 15 px ;
+  line-height: 1.6em;
+  margin:0;
+
+}
+.container{
+    width:80%;          /*!--px can be used as well-->*/
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+
+
+}
+.box-1 {
+
+    background-color: black;
+    color: rgb(16, 214, 214);
+           /* border-right: 5px indigo solid;
+    border-left: 5px indigo solid;
+    border-top: 5px indigo solid;
+    border-bottom: 5px indigo solid;
+
+      */
+      border: 5px rgb(130, 128, 0) solid;
+      border-width: 10px;
+      border-bottom-width: 20px;
+      border-top-style: double;
+
+
+
+      padding-top: 25px; /*notice things getting overwitten*/
+      padding-top:100px;
+
+
+      margin-top: 20px;
+
+      margin: 20px 0;
+
+
+
+
+
+
+
+}
+.clr{
+    clear:both;
+}
+.box-1 h1{
+    font-family: verdana;
+    font-weight: 400;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.02em ;
+    word-spacing: 0.4em;
+    color: #1390d8;
+}
+.box-1 p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: medium;
+    color:white;
+
+}
+.box-2 {
+margin: 50px;
+border:3px dotted green;
+color:black;
+padding :20px;
+}
+.box-2 h1{
+color: #1390d8;
+
+}
+.categories{
+
+border:5px red solid;
+padding: 10px;
+border-radius: 15px;
+margin:10px;
+}
+.categories h2{
+color:blueviolet;
+}
+.categories ul{
+
+list-style: square;
+color:yellow;
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+a:hover{
+
+    color:red;
+
+}
+a:active{
+    color:blueviolet;
+}
+a:visited{
+
+    color:pink;
+}
+.categories li{
+    padding-bottom: 8px;
+    border-bottom: 2px dotted blue;
+}
+.my-form{
+    padding: 50px;
+}
+.my-form.form group{
+    padding-bottom:20px;
+}
+.my-form label{
+    display:block;
+}
+.my-form input[type="text"], .my-form textarea{
+
+    padding:8px;
+    width:40%;
+}
+.my-form input[type="submit"]{
+
+    padding:10px;
+    margin:20px;
+    
+}
+.block {
+    color:teal;
+    padding:25px 50px;
+}
+.block h3{
+color:black;
+}
+.block{
+    float: left;
+    width:33%;
+    border:1px solid rgb(92, 88, 88);
+    padding:10px;
+    box-sizing:border-box;  /*see what happens without me*/
+
+}
+#mainblock{
+    float:left;
+    width: 70%;
+    padding:5px 10px;
+    box-sizing:border-box;
+
+}
+#sidebar{
+    float:right;
+    width:30%;
+    border:10px solid black;
+    background-color: pink;
+    box-sizing: border-box;
+}
+.p-box{
+    width:800px;
+    height:500px;
+    border:1px solid black;
+    margin-top: 20px;
+    position: relative;
+    background-image: url('../images/testimage.jpg');
+    background-repeat: no-repeat;
+    background-position: 100px 200px;
+    background-position:centre top ;
+    
+
+
+}
+.p-box h1{
+    position:absolute;
+    top:100px;
+    left:50px;
+}
+.p-box h2{
+    position: absolute;
+    bottom:20px;
+    right:100px;
+}
+.fix-me{
+    position:fixed;
+    top:400px;
+    background-color: blue;
+}
+.my-list li:first-child{
+background:pink;
+color:blueviolet
+}
+.my-list li:last-child{
+
+    background:blue;
+    color:pink;
+}
+.my-list li:nth-child(3){
+    background:rgb(61, 61, 15)
+}
+.my-list li:nth-child(even){
+    background-color: grey;
+}
